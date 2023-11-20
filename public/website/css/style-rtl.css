@@ -1,0 +1,109 @@
+.header-top-item .list-item,
+.main-menu > ul > li .dropdown-menu-item,
+.card,
+.footer-item,
+.list-group,
+.new-product-item,
+.sidebar,
+.sidebar-filter,
+.product-details,
+.table,
+.payment-method {
+    text-align: right;
+}
+.header-top-item.text-right .list-item,
+.table-summary thead th:last-child, .table-summary tbody td:last-child{
+    text-align: left;
+}
+.btn i,
+.btn-link i,
+.new-product-item img,
+.breadcrumb-item + .breadcrumb-item:before {
+    transform: scaleX(-1);
+}
+.main-menu > ul > li {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.user-action-list li:not(:last-child) {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.main-menu > ul > li > a i {
+    margin-right: 2px;
+}
+.main-menu > ul > li .dropdown-menu-item {
+    left: auto;
+    right: 0;
+}
+.main-menu > ul > li .mega-menu > li:not(:last-child) {
+    border-right: 0;
+    border-left: 1px solid #eeeeee;
+}
+.card-flex .card-img-top {
+    border-radius: 0 6px 6px 0;
+}
+.card-head .card-img-right {
+    border-radius: 6px 0 0 6px;
+}
+#myChartLegend li:first-child {
+    margin-right: 0;
+    margin-left: 20px;
+}
+#myChartLegend li span {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.star-rating .star {
+    margin-right: 0;
+    margin-left: 4px;
+}
+.rating-counter {
+    padding-left: 0;
+    padding-right: 3px;
+}
+.rtl .breadcrumb-item+.breadcrumb-item::before,
+[dir=rtl] .breadcrumb-item+.breadcrumb-item::before {
+    padding-right: .5rem;
+    padding-left: 0;
+}
+.rtl .list-group,
+[dir=rtl] .list-group {
+    padding-left: 0;
+}
+.owl-theme--styled .owl-nav .owl-prev {
+    margin-left: 0;
+    margin-right: -40px;
+}
+.owl-theme--styled .owl-nav .owl-next {
+    margin-right: 0;
+    margin-left: -40px;
+}
+.payment-method .payment-method-label {
+    padding-left: 0;
+    padding-right: 30px;
+}
+.payment-method .payment-method-label:before {
+    left: auto;
+    right: 0;
+}
+.payment-method .payment-method-label:after {
+    left: auto;
+    right: 5px;
+}
+.single-team-img-container:before {
+    left: auto;
+    right: -40px
+}
+.single-team-img-container::after {
+    left: auto;
+    right: -68px;
+}
+.blockquote {
+    border-left: 0;
+    border-right: 5px solid #eeeeee;
+}
+.file-upload-wrap .MultiFile-list .MultiFile-remove {
+    right: auto;
+    left: -10px;
+}
